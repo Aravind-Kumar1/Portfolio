@@ -1,5 +1,7 @@
 import React from "react";
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa/index";
+import { FaGithub } from "react-icons/fa6"; 
+import { FaExternalLinkAlt } from "react-icons/fa"; 
+
 // Importing Icons
 import smart from "../assets/smart.png"; // Importing the image
 import ch from "../assets/ch.png";

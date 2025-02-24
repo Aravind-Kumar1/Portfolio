@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['react-icons/fa'], // Exclude react-icons from Rollup bundling
+      external: ['react-icons/fa', 'react-icons/fa6'], // Ensure both fa & fa6 are external
     },
   },
 });
