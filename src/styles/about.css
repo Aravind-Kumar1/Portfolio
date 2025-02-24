@@ -1,11 +1,4 @@
-/* 🌍 Global Styles */
-:root {
-    --primary-bg: #0a192f;
-    --card-bg: linear-gradient(135deg, #1f4068, #102542);
-    --text-color: #ffffff;
-    --accent-color: #64ffda;
-    --hover-color: #ff8c00;
-}
+
 
 .about-section {
     background: var(--primary-bg);

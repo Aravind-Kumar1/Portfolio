@@ -15,7 +15,7 @@ import "react-toastify/dist/ReactToastify.css";
 const App = () => {
   return (
     <>
-      <ToastContainer /> {/* ✅ Toast container for global notifications */}
+      <ToastContainer /> {/* */}
       <Navbar />
       <Home />
       <About />
