@@ -1,0 +1,168 @@
+/* 🌍 Global Styles */
+:root {
+    --primary-bg: #0a192f;
+    --card-bg: linear-gradient(135deg, #1f4068, #102542);
+    --text-color: #ffffff;
+    --accent-color: #64ffda;
+    --hover-color: #ff8c00;
+}
+
+.about-section {
+    background: var(--primary-bg);
+    padding: 100px 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* 📌 Section Heading */
+.section-heading {
+    font-size: 48px;
+    font-weight: bold;
+    color: var(--text-color);
+    margin-bottom: 50px;
+}
+
+.section-heading span {
+    color: var(--accent-color);
+}
+
+/* 🏗 About Me Layout */
+.about-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    width: 100%;
+    max-width: 1300px;
+}
+
+/* 📸 Profile Image */
+.about-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-img {
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    border: 5px solid var(--accent-color);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-img:hover {
+    transform: scale(1.05);
+}
+
+/* 📝 About Me Card */
+.about-card {
+    flex: 2;
+    background: var(--card-bg);
+    padding: 40px 60px;  /* Reduced padding */
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    max-width: 750px; /* Increased width */
+}
+
+.about-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.4);
+}
+
+/* 📝 About Content */
+.about-description {
+    font-size: 19px;
+    color: var(--text-color);
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+/* 🔗 Buttons */
+.cta-buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 22px;
+    border-radius: 8px;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.github-btn {
+    background: linear-gradient(45deg, #ff7eb3, #ff758c);
+    color: #fff;
+}
+
+.resume-btn {
+    background: linear-gradient(45deg, #64ffda, #1b998b);
+    color: #fff;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 1024px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-img {
+        width: 320px;
+        height: 320px;
+    }
+
+    .about-card {
+        text-align: center;
+        padding: 40px;
+        max-width: 80%;
+    }
+
+    .cta-buttons {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .profile-img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .about-card {
+        padding: 30px;
+        max-width: 95%;
+    }
+
+    .about-description {
+        font-size: 18px;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+}
