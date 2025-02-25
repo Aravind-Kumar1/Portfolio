@@ -1,6 +1,6 @@
 # 🚀 Aravind Kumar | Frontend Developer Portfolio
 
-![ELIM Church Website Thumbnail](public/elim-thumbnail.png)  
+![ELIM Church Website Thumbnail](public/thumbnail.png)  
 
 
 ## 🌟 About This Project
