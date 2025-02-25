@@ -1,6 +1,7 @@
 # 🚀 Aravind Kumar | Frontend Developer Portfolio
 
-![Portfolio Thumbnail](public/thumbnail.png)
+![Portfolio Thumbnail](https://raw.githubusercontent.com/Aravind-Kumar1/portfolio/main/public/thumbnail.png)
+
 
 ## 🌟 About This Project
 
