@@ -1,9 +1,39 @@
-# React + Vite
+# 🚀 Aravind Kumar | Frontend Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Portfolio Thumbnail](public/HeroImage.png)
 
-Currently, two official plugins are available:
+## 🌟 About This Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# Portfolio
+This is my personal **Frontend Developer Portfolio**, built using **React + Vite**. It showcases my skills, experience, and projects in an interactive and visually appealing way.
+
+## 🔥 Features
+
+✅ **Modern & Responsive Design** – Fully optimized for all devices  
+✅ **Fast & Lightweight** – Powered by **Vite** for blazing-fast performance  
+✅ **Interactive UI** – Smooth animations & seamless user experience  
+✅ **Projects Showcase** – A dedicated section for my best work  
+✅ **Contact Form** – Get in touch with me easily  
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js, Vite, Tailwind CSS  
+- **Animations**: Framer Motion  
+- **Forms**: EmailJS  
+- **Deployment**: Netlify
+
+![Portfolio Website](https://chamaakuriaravindkumar.netlify.app/)
+
+## 🏗️ Installation & Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/Aravind-Kumar1/portfolio.git
+
+# Navigate to the project directory
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
