@@ -1,12 +1,10 @@
 import React from "react";
-import { FaGithub } from "react-icons/fa6"; 
-import { FaExternalLinkAlt } from "react-icons/fa"; 
 
-// Importing Icons
-import smart from "../assets/smart.png"; // Importing the image
+// Importing Images
+import smart from "../assets/smart.png";
 import ch from "../assets/ch.png";
-import "../styles/projects.css";
 import event from "../assets/event.png";
+import "../styles/projects.css";
 
 const projects = [
   {
@@ -72,7 +70,7 @@ const Projects = () => {
                   rel="noopener noreferrer"
                   className="project-link"
                 >
-                  <FaGithub /> GitHub
+                  GitHub
                 </a>
                 <a
                   href={project.live}
@@ -80,7 +78,7 @@ const Projects = () => {
                   rel="noopener noreferrer"
                   className="project-link"
                 >
-                  <FaExternalLinkAlt /> Live Demo
+                  Live Demo
                 </a>
               </div>
             </div>
