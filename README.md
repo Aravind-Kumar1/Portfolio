@@ -1,6 +1,6 @@
 # 🚀 Aravind Kumar | Frontend Developer Portfolio
 
-![Portfolio Thumbnail]([public/thumb.png])
+![Portfolio Thumbnail](public/thumb.png)
 
 ## 🌟 About This Project
 
