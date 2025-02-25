@@ -14,8 +14,8 @@ import "react-toastify/dist/ReactToastify.css";
 
 const App = () => {
   return (
-    <>
-      <ToastContainer /> {/* */}
+    <main>
+      <ToastContainer />
       <Navbar />
       <Home />
       <About />
@@ -25,9 +25,8 @@ const App = () => {
       <Education />
       <Contact />
       <Footer />
-    </>
+    </main>
   );
 };
 
 export default App;
-

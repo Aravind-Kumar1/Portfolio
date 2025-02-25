@@ -3,7 +3,7 @@ import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaFacebook, FaLinkedin, FaTwitter 
 import { toast } from "react-toastify";
 import emailjs from "emailjs-com";
 import "react-toastify/dist/ReactToastify.css";
-import "../styles/contact.css"; // ✅ Make sure you have contact.css for styling
+import "../styles/contact.css"; // 
 
 const Contact = () => {
   const [formData, setFormData] = useState({
